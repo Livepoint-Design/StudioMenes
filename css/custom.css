@@ -1,3 +1,10 @@
+/* slides paragraphs */
+.o-nas {
+margin-left: 258px;
+margin-top: 540px;
+}
+
+/* triangles */
 .tr1 {
 	width: inherit;
 	height:inherit;
@@ -5,9 +12,6 @@
 	background-repeat: no-repeat;
 	background-position:bottom left;
 	background-size:cover;
-	
-	
-	
 	bottom: 0;
 	position: absolute;	
 	}
@@ -274,19 +278,19 @@
 	margin: 0 0 -120px 0;
 }
 
-.studio-m .sl-slide blockquote {
+.studio-m .sl-slide .o-nas {
 	position: absolute;
-	width: 100%;
-	text-align: center;
+	width: 545px;
+	text-align: left;
 	left: 0;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 20px;
 	height: 70px;
-	color: #8b8b8b;
+	color: #fff;
 	z-index: 2;
-	bottom: 50%;
-	margin: 0 0 -200px 0;
+	top: 365px;
+	margin: 0 0 -100px 15px;
 	padding: 0;
 }
 
