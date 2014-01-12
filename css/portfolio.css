@@ -1,0 +1,39 @@
+.studio-m .bg-4 .sl-slide-inner,
+.studio-m .bg-4 .sl-content-slice {
+	background-color: #229C79;
+}
+
+/* technical */
+
+.bg-4 h2 {
+	color: #fff;
+	position: absolute;
+	font-size: 21px;
+    font-family: 'Duru Sans', sans-serif;
+    font-weight: 400;
+	left: 120px;
+	text-align: center;
+	line-height: 50px;
+	top: 107px;
+	margin: 0 0 -120px 0;
+transform: rotate(33deg);
+-ms-transform: rotate(33deg); /* IE 9 */
+-webkit-transform: rotate(33deg); /* Safari and Chrome */
+    
+}
+
+.portfolio {
+	position: absolute;
+	width: 545px;
+	text-align: left;
+	left: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	height: 70px;
+	color: #fff;
+	z-index: 2;
+	top: 365px;
+	margin: 0 0 -100px 15px;
+	padding: 0;
+}

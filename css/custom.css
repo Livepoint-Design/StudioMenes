@@ -297,31 +297,6 @@ margin-top: 540px;
 	background-color: #AE64A8;
 }
 
-/* Forth Slide */
-.studio-m .bg-4 .sl-slide-inner,
-.studio-m .bg-4 .sl-content-slice {
-	background-color: #229C79;
-}
-
-.studio-m .bg-4 .deco {
-	border-color: #379eaa;
-}
-
-.studio-m .bg-4 [data-icon]:after {
-	text-shadow: 0 0 1px #277d87;
-	color: #277d87;
-}
-
-.studio-m .bg-4 h2,
-.studio-m .bg-4 blockquote{
-	color: #fff;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-}
-
-.studio-m .bg-4 blockquote:before {
-	color: #379eaa;
-}
-
 /* Fifth Slide */
 .studio-m .bg-5 .sl-slide-inner,
 .studio-m .bg-5 .sl-content-slice {

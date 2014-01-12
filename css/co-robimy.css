@@ -40,7 +40,7 @@ transform: rotate(33deg);
 
 .co-robimy-wrapper {
 	position: absolute;
-	width: 545px;
+	width: 700px;
 	text-align: left;
 	left: 0;
 	font-weight: 400;
@@ -58,6 +58,7 @@ transform: rotate(33deg);
 width: 25%;
     float: left;
     text-align: left;
+    padding-right: 15px;
 }
 
 .tabelka h3 {
