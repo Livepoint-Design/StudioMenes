@@ -264,18 +264,18 @@ margin-top: 540px;
 .studio-m .sl-slide h2 {
 	color: #000;
 	text-shadow: 0 0 1px #000;
-	padding: 20px;
+	padding: 25px;
 	position: absolute;
-	font-size: 34px;
-	font-weight: 700;
-	letter-spacing: 13px;
-	text-transform: uppercase;
-	width: 80%;
-	left: 10%;
+	font-size: 21px;
+	left: 14%;
 	text-align: center;
 	line-height: 50px;
-	bottom: 50%;
+	top: 15%;
 	margin: 0 0 -120px 0;
+        transform: rotate(33deg);
+-ms-transform: rotate(33deg); /* IE 9 */
+-webkit-transform: rotate(33deg); /* Safari and Chrome */
+    
 }
 
 .studio-m .sl-slide .o-nas {
@@ -292,6 +292,68 @@ margin-top: 540px;
 	top: 365px;
 	margin: 0 0 -100px 15px;
 	padding: 0;
+}
+
+.studio-m .sl-slide .pmen {
+display:block;
+    position:absolute;
+    top: 48px;
+    overflow: hidden;
+}
+
+.ekipa {
+z-index: 999;
+    position:absolute;
+    top:87px;
+        left:415px;
+}
+
+.studio-m .sl-slide .pmen::before {
+        border-top: 0;
+        border-right: 155px solid white;
+        border-bottom: 263px solid red;
+        border-left: 162px solid white;
+        position: absolute;
+    overflow:hidden;
+        content: "";
+    left: 383px !important;
+    transform: rotate(32deg);
+-ms-transform: rotate(32deg); /* IE 9 */
+-webkit-transform: rotate(32deg); /* Safari and Chrome */
+      }
+
+.studio-m .sl-slide .karpik {
+	position: absolute;
+	text-align: left;
+	left: 0;
+	color: #fff;
+	z-index: 20;
+	top: 72px;
+	margin: 0 0 0 610px;
+	padding: 0;
+}
+
+.studio-m .sl-slide .hiki {
+	position: absolute;
+	text-align: left;
+	left: 0;
+	color: #fff;
+	z-index: 20;
+	top:95px;
+	margin: 0 0 0 615px;
+	padding: 0;
+}
+
+.studio-m .sl-slide .wiki {
+	position: absolute;
+	text-align: left;
+	left: 0;
+	color: #fff;
+	z-index: 20;
+	top: 72px;
+	margin: 0 0 0 610px;
+	padding: 0;
+    display: none;
 }
 
 .studio-m .sl-slide blockquote p{
@@ -435,11 +497,14 @@ margin-top: 540px;
 	animation: roll 1s ease-out both, fadeIn 1s ease-out both;
 }
 .sl-trans-elems h2{
-	-webkit-animation: moveUp 1s ease-in-out both;
-	-moz-animation: moveUp 1s ease-in-out both;
-	-o-animation: moveUp 1s ease-in-out both;
-	-ms-animation: moveUp 1s ease-in-out both;
-	animation: moveUp 1s ease-in-out both;
+	-webkit-animation: moveUp 1s ease-in-out both, rotate(33deg);
+	-moz-animation: moveUp 1s ease-in-out both, rotate(33deg);
+	-o-animation: moveUp 1s ease-in-out both, rotate(33deg);
+	-ms-animation: moveUp 1s ease-in-out both, rotate(33deg);
+	animation: moveUp 1s ease-in-out both, rotate(33deg);
+    transform: rotate(33deg);
+-ms-transform: rotate(33deg); /* IE 9 */
+-webkit-transform: rotate(33deg); /* Safari and Chrome */
 }
 .sl-trans-elems blockquote{
 	-webkit-animation: fadeIn 0.5s linear 0.5s both;
@@ -456,11 +521,14 @@ margin-top: 540px;
 	animation: scaleDown 1s ease-in-out both;
 }
 .sl-trans-back-elems h2{
-	-webkit-animation: fadeOut 1s ease-in-out both;
-	-moz-animation: fadeOut 1s ease-in-out both;
-	-o-animation: fadeOut 1s ease-in-out both;
-	-ms-animation: fadeOut 1s ease-in-out both;
-	animation: fadeOut 1s ease-in-out both;
+	-webkit-animation: fadeOut 1s ease-in-out both, rotate(33deg);
+	-moz-animation: fadeOut 1s ease-in-out both, rotate(33deg);
+	-o-animation: fadeOut 1s ease-in-out both, rotate(33deg);
+	-ms-animation: fadeOut 1s ease-in-out both, rotate(33deg);
+	animation: fadeOut 1s ease-in-out both, rotate(33deg);
+        transform: rotate(33deg);
+-ms-transform: rotate(33deg); /* IE 9 */
+-webkit-transform: rotate(33deg); /* Safari and Chrome */
 }
 .sl-trans-back-elems blockquote{
 	-webkit-animation: fadeOut 1s linear both;
