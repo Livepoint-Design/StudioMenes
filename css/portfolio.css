@@ -11,14 +11,14 @@
 	font-size: 21px;
     font-family: 'Duru Sans', sans-serif;
     font-weight: 400;
-	left: 120px;
+	left: 141px;
 	text-align: center;
 	line-height: 50px;
-	top: 107px;
+	top: 203px;
 	margin: 0 0 -120px 0;
-transform: rotate(33deg);
--ms-transform: rotate(33deg); /* IE 9 */
--webkit-transform: rotate(33deg); /* Safari and Chrome */
+transform: rotate(73deg);
+-ms-transform: rotate(73deg); /* IE 9 */
+-webkit-transform: rotate(73deg); /* Safari and Chrome */
     
 }
 
