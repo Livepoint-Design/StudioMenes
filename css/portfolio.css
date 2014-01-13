@@ -11,11 +11,9 @@
 	font-size: 21px;
     font-family: 'Duru Sans', sans-serif;
     font-weight: 400;
-	left: 141px;
+	left: 185px;
 	text-align: center;
-	line-height: 50px;
-	top: 203px;
-	margin: 0 0 -120px 0;
+	top: 150px;
 transform: rotate(73deg);
 -ms-transform: rotate(73deg); /* IE 9 */
 -webkit-transform: rotate(73deg); /* Safari and Chrome */
@@ -24,7 +22,7 @@ transform: rotate(73deg);
 
 .portfolio {
 	position: absolute;
-	width: 545px;
+	width: 285px;
 	text-align: left;
 	left: 0;
 	font-weight: 400;
