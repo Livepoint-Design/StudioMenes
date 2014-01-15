@@ -1,0 +1,53 @@
+/* Second Slide */
+.studio-m .bg-5 .sl-slide-inner,
+.studio-m .bg-5 .sl-content-slice {
+	background-color: #595EA0;
+}
+
+/* technical */
+
+.bg-5 h2 {
+	color: #fff;
+	position: absolute;
+	font-size: 21px;
+    font-family: 'Duru Sans', sans-serif;
+    font-weight: 400;
+	left: 50px;
+	text-align: center;
+	line-height: 50px;
+	top: 266px;
+	margin: 0 0 -120px 0;
+transform: rotate(39deg);
+-ms-transform: rotate(39deg); /* IE 9 */
+-webkit-transform: rotate(39deg); /* Safari and Chrome */
+    
+}
+
+.kontakt {
+	position: absolute;
+	width: 545px;
+	text-align: left;
+	left: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	height: 70px;
+	color: #fff;
+	z-index: 2;
+	top: 30%;
+	margin: 0 0 -100px 30%;
+	padding: 0;
+}
+
+.kontaktbig {
+	font-size: 130%;
+}
+
+/* team */
+
+.ekipa {
+z-index: 999;
+    position:absolute;
+    top:87px;
+        left:415px;
+}

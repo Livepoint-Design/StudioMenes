@@ -112,18 +112,17 @@ margin-top: 540px;
 	background-position:top;
 	top: 0;
 	background-size:cover;
-	
 	bottom: 0;
 	position: absolute;	
 	}
 	
 .tr9 {
-	width: inherit;
-	height: inherit;
+	width: 1278px;
+	height: 803px;
 	background-image: url(../img/tr9.svg);
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-position: right left;
+	margin-left:20px;
 	}
 
 /* social ico */ 
@@ -295,31 +294,6 @@ margin-top: 540px;
 .studio-m .bg-1 .sl-slide-inner,
 .studio-m .bg-1 .sl-content-slice {
 	background-color: #AE64A8;
-}
-
-/* Fifth Slide */
-.studio-m .bg-5 .sl-slide-inner,
-.studio-m .bg-5 .sl-content-slice {
-	background-color: #595EA0;
-}
-
-.studio-m .bg-5 .deco {
-	border-color: #ECD82C;
-}
-
-.studio-m .bg-5 .deco:after {
-	color: #000;
-	text-shadow: 0 0 1px #000;
-}
-
-.studio-m .bg-5 h2,
-.studio-m .bg-5 blockquote{
-	color: #000;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-}
-
-.studio-m .bg-5 blockquote:before {
-	color: #ecd82c;
 }
 
 /* Animations for content elements */
